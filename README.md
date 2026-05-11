@@ -14,27 +14,68 @@
 
 ## 🎯 Sobre este repositorio
 
-Este repositorio contiene el **desarrollo de las actividades, talleres y proyectos** asignados en el curso de Sistemas Avanzados de Producción con Python (SAPP) del programa de Ingeniería Industrial de la **Universidad ECCI**, semestre 2026-1.
+Este repositorio contiene el **desarrollo de actividades, talleres y parciales** del curso de Sistemas Avanzados de Producción con Python (SAPP) del programa de Ingeniería Industrial de la **Universidad ECCI**, semestre 2026-1.
+
+- 📅 **Inicio:** 2 de febrero de 2026
+- 📅 **Finalización:** 30 de mayo de 2026
+- 🐍 **Entorno:** Python / Google Colab
+- 🎓 **Departamento:** Ingeniería Industrial — ECCI
 
 El material académico de referencia del docente se encuentra en:
 > 🔗 [Repositorio del Docente — SAPP IIND 2026](https://github.com/faorjuelal/SAPP---IIND---2026)
 
 ---
 
-## 📚 Contenido del Curso
+## 🧩 Estructura del Curso — 3 Módulos
 
-Los temas abordados en este repositorio incluyen:
+### 🧱 Módulo 1 — Fundamentos Estadísticos y Modelos Clásicos
+> Bases estadísticas + modelos clásicos de ML: regresión y árboles de decisión.
 
-| # | Tema | Descripción |
-|---|------|-------------|
-| 1 | Fundamentos de Python | Sintaxis, estructuras de datos, funciones y POO |
-| 2 | NumPy & Pandas | Manejo y análisis de datos industriales |
-| 3 | Visualización de datos | Matplotlib y Seaborn aplicados a producción |
-| 4 | Simulación de sistemas | Modelado y simulación de procesos productivos |
-| 5 | Optimización | Programación lineal y métodos de optimización |
-| 6 | Gestión de inventarios | Modelos EOQ, punto de reorden con Python |
-| 7 | Cadena de suministro | Análisis y modelado con herramientas computacionales |
-| 8 | Automatización de reportes | Scripts para generación automática de informes |
+| Semana | Fechas | Tema | Actividad |
+|--------|--------|------|-----------|
+| 1 | 2–6 feb | Introducción al curso, metodología y entorno Python/Colab | — |
+| 2 | 9–13 feb | Estadística descriptiva: media, varianza, error, muestreo | Quiz 1 |
+| 3 | 16–20 feb | Regresión lineal: formulación y desarrollo matricial | Quiz 2 |
+| 4 | 23–27 feb | Árboles de decisión y clasificación | Quiz 3 · **Entrega Taller 1** *(dom. 1 mar, 11:59 p. m.)* |
+| 5 | 2–6 mar | Revisión de notas y preparación | **Parcial I** |
+
+### ⚙️ Módulo 2 — Optimización y Redes Neuronales
+> Descenso del gradiente, fundamentos de redes neuronales y evaluación de modelos.
+
+| Semana | Fechas | Tema | Actividad |
+|--------|--------|------|-----------|
+| 6 | 9–13 mar | Optimización: descenso del gradiente y regularización | Quiz 4 |
+| 7 | 16–20 mar | Redes neuronales: perceptrón y backpropagation | Quiz 5 |
+| 8 | 23–27 mar | Redes neuronales e hiperparámetros | Quiz 6 |
+| 9 | 6–10 abr | Métricas de evaluación: matriz de confusión, ROC, desempeño | Quiz 7 · **Entrega Taller 2** *(dom. 12 abr, 11:59 p. m.)* |
+| 10 | 13–17 abr | Revisión de notas y preparación | **Parcial II** |
+
+### 🤖 Módulo 3 — Deep Learning e IA Generativa
+> Deep learning, prompting para LLMs, IA multimodal, agentes y ética de la IA.
+
+| Semana | Fechas | Tema | Actividad |
+|--------|--------|------|-----------|
+| 11 | 20–24 abr | Deep Learning e introducción a IA generativa | Quiz 8 |
+| 12 | 27 abr–1 may | Diseño de prompts para LLMs | Quiz 9 |
+| 13 | 4–8 may | IA multimodal: generación de imágenes, audio y video | Quiz 10 |
+| 14 | 11–15 may | Agentes de IA, recuperación de información y contexto | Quiz 11 · **Entrega Taller 3** *(dom. 17 may, 11:59 p. m.)* |
+| 15 | 18–22 may | Factores sociales de la IA: ética, limitaciones y seguridad | Repaso módulos 1–3 |
+| 16 | 25–30 may | Cierre del curso | **Parcial III (Final)** |
+
+---
+
+## 📊 Distribución de Evaluación
+
+| Componente | Porcentaje |
+|------------|-----------|
+| Quices (11 en total) | 30% |
+| Taller 1 — Modelos Clásicos | 10% |
+| Taller 2 — Redes Neuronales | 10% |
+| Taller 3 — Deep Learning / IA Generativa | 10% |
+| Parcial I | 13% |
+| Parcial II | 13% |
+| Parcial III (Final) | 14% |
+| **Total** | **100%** |
 
 ---
 
@@ -42,20 +83,27 @@ Los temas abordados en este repositorio incluyen:
 
 ```
 📦 SAPP-IIND-2026/
-├── 📁 Talleres/
-│   ├── Taller_01/
-│   │   ├── taller_01.py
-│   │   └── README.md
-│   ├── Taller_02/
-│   └── ...
-├── 📁 Laboratorios/
-│   └── ...
-├── 📁 Proyecto_Final/
-│   └── ...
-├── 📁 Notebooks/
-│   └── *.ipynb
-├── 📁 Recursos/
-│   └── referencias.md
+├── 📁 Modulo_1_Estadistica_ML_Clasico/
+│   ├── Quiz_01/
+│   ├── Quiz_02/
+│   ├── Quiz_03/
+│   └── Taller_1/
+├── 📁 Modulo_2_Optimizacion_Redes_Neuronales/
+│   ├── Quiz_04/
+│   ├── Quiz_05/
+│   ├── Quiz_06/
+│   ├── Quiz_07/
+│   └── Taller_2/
+├── 📁 Modulo_3_DeepLearning_IA_Generativa/
+│   ├── Quiz_08/
+│   ├── Quiz_09/
+│   ├── Quiz_10/
+│   ├── Quiz_11/
+│   └── Taller_3/
+├── 📁 Parciales/
+│   ├── Parcial_1/
+│   ├── Parcial_2/
+│   └── Parcial_3/
 ├── requirements.txt
 └── README.md
 ```
@@ -64,27 +112,20 @@ Los temas abordados en este repositorio incluyen:
 
 ## 🛠️ Herramientas y Tecnologías
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-
-| Herramienta | Uso principal |
-|-------------|--------------|
-| Python 3.x | Lenguaje base del curso |
-| Jupyter Notebook | Desarrollo interactivo y entrega de talleres |
-| NumPy | Cálculo numérico y matrices |
-| Pandas | Análisis y manipulación de datos |
-| Matplotlib / Seaborn | Visualización de datos |
-| SciPy / PuLP | Optimización y simulación |
-| GitHub | Control de versiones y entrega de actividades |
+| Herramienta | Módulo | Uso |
+|-------------|--------|-----|
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) Python 3.x | Todos | Lenguaje base del curso |
+| ![Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=flat&logo=googlecolab&logoColor=white) Google Colab | Todos | Entorno de desarrollo y entrega |
+| ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) NumPy | Módulo 1 | Cálculo matricial y estadístico |
+| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) Pandas | Módulo 1–2 | Manipulación de datos |
+| ![Scikit](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikitlearn&logoColor=white) Scikit-Learn | Módulo 1–2 | Regresión, árboles, métricas |
+| ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) TensorFlow / Keras | Módulo 2–3 | Redes neuronales y Deep Learning |
+| ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black) Hugging Face | Módulo 3 | LLMs e IA generativa |
+| ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) GitHub | Todos | Control de versiones y entregas |
 
 ---
 
-## ⚙️ Instalación del entorno
+## ⚙️ Instalación del entorno local
 
 ```bash
 # Clonar el repositorio
@@ -101,22 +142,41 @@ numpy
 pandas
 matplotlib
 seaborn
-scipy
-pulp
+scikit-learn
+tensorflow
 jupyter
 ```
 
+> 💡 También puedes trabajar directamente en **Google Colab** sin instalación local.
+
 ---
 
-## 📝 Actividades
+## ✅ Seguimiento de Actividades
 
-- [ ] Taller 01 — *pendiente*
-- [ ] Taller 02 — *pendiente*
-- [ ] Laboratorio 01 — *pendiente*
-- [ ] Laboratorio 02 — *pendiente*
-- [ ] Proyecto Final — *pendiente*
+### Módulo 1 — Estadística y ML Clásico
+- [ ] Quiz 1 — Estadística descriptiva
+- [ ] Quiz 2 — Regresión lineal
+- [ ] Quiz 3 — Árboles de decisión
+- [ ] **Taller 1** *(entrega: dom. 1 mar)*
 
-> Las actividades se irán actualizando y marcando conforme avance el semestre. ✅
+### Módulo 2 — Optimización y Redes Neuronales
+- [ ] Quiz 4 — Descenso del gradiente
+- [ ] Quiz 5 — Perceptrón y backpropagation
+- [ ] Quiz 6 — Hiperparámetros
+- [ ] Quiz 7 — Métricas de evaluación
+- [ ] **Taller 2** *(entrega: dom. 12 abr)*
+
+### Módulo 3 — Deep Learning e IA Generativa
+- [ ] Quiz 8 — Deep Learning
+- [ ] Quiz 9 — Prompting LLMs
+- [ ] Quiz 10 — IA multimodal
+- [ ] Quiz 11 — Agentes de IA
+- [ ] **Taller 3** *(entrega: dom. 17 may)*
+
+### Evaluaciones
+- [ ] Parcial I
+- [ ] Parcial II
+- [ ] Parcial III (Final)
 
 ---
 
@@ -134,7 +194,7 @@ jupyter
 
 ## 📌 Nota
 
-Este repositorio es de uso académico. Todo el material de referencia pertenece al docente del curso. Los scripts, notebooks y actividades aquí contenidas representan el trabajo propio del estudiante basado en dicho material.
+Este repositorio es de uso académico. Todo el material de referencia pertenece al docente del curso. Los notebooks y actividades aquí contenidos representan el trabajo propio del estudiante basado en dicho material.
 
 ---
 
